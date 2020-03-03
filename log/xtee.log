@@ -3357,3 +3357,123 @@ Caused by: java.io.IOException: An existing connection was forcibly closed by th
 2020-03-03 17:03:54.339  INFO 10552 --- [http-nio-29999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2020-03-03 17:03:54.339  INFO 10552 --- [http-nio-29999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2020-03-03 17:03:54.355  INFO 10552 --- [http-nio-29999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2020-03-03 18:10:06.577  INFO 10552 --- [Thread-19] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 17:01:44 EET 2020]; root of context hierarchy
+2020-03-03 18:10:06.589  INFO 10552 --- [Thread-19] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-03-03 18:10:06.592  INFO 10552 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 18:10:13.242  INFO 20680 --- [main] ee.tieto.XteeStubApplication             : Starting XteeStubApplication on WL360767 with PID 20680 (C:\Users\liibepau\Documents\projects\work\xteeonmetsas\target\classes started by liibepau in C:\Users\liibepau\Documents\projects\work\xteeonmetsas)
+2020-03-03 18:10:13.247  INFO 20680 --- [main] ee.tieto.XteeStubApplication             : No active profile set, falling back to default profiles: default
+2020-03-03 18:10:13.324  INFO 20680 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:10:13 EET 2020]; root of context hierarchy
+2020-03-03 18:10:14.767  INFO 20680 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-03 18:10:14.843  INFO 20680 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9ef05c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 18:10:15.207  INFO 20680 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 29999 (http)
+2020-03-03 18:10:15.218  INFO 20680 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-03-03 18:10:15.219  INFO 20680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2020-03-03 18:10:15.344  INFO 20680 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-03 18:10:15.344  INFO 20680 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2020 ms
+2020-03-03 18:10:15.634  INFO 20680 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-03 18:10:15.638  INFO 20680 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 18:10:15.639  INFO 20680 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 18:10:15.639  INFO 20680 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 18:10:15.639  INFO 20680 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 18:10:19.642  INFO 20680 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 18:10:19.647  INFO 20680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-03 18:10:19.750  INFO 20680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-03 18:10:19.752  INFO 20680 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-03 18:10:19.753  INFO 20680 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-03-03 18:10:19.882  INFO 20680 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-03 18:10:20.085  INFO 20680 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-03-03 18:10:20.195  INFO 20680 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-03 18:10:20.566  INFO 20680 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:10:13 EET 2020]; root of context hierarchy
+2020-03-03 18:10:20.628  INFO 20680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cgi-bin/consumer_proxy]}" onto public java.lang.String ee.tieto.XteeStubApplication.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,java.net.URISyntaxException,java.sql.SQLException
+2020-03-03 18:10:20.630  INFO 20680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-03 18:10:20.630  INFO 20680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-03 18:10:20.659  INFO 20680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:10:20.660  INFO 20680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:10:20.694  INFO 20680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:10:20.933  INFO 20680 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-03 18:10:20.985  INFO 20680 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 29999 (http)
+2020-03-03 18:10:20.989  INFO 20680 --- [main] ee.tieto.XteeStubApplication             : Started XteeStubApplication in 8.186 seconds (JVM running for 10.182)
+2020-03-03 18:10:43.135  INFO 20680 --- [http-nio-29999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-03 18:10:43.135  INFO 20680 --- [http-nio-29999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-03 18:10:43.151  INFO 20680 --- [http-nio-29999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2020-03-03 18:11:14.196  INFO 20680 --- [Thread-18] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:10:13 EET 2020]; root of context hierarchy
+2020-03-03 18:11:14.197  INFO 20680 --- [Thread-18] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-03-03 18:11:14.198  INFO 20680 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 18:11:18.775  INFO 17980 --- [main] ee.tieto.XteeStubApplication             : Starting XteeStubApplication on WL360767 with PID 17980 (C:\Users\liibepau\Documents\projects\work\xteeonmetsas\target\classes started by liibepau in C:\Users\liibepau\Documents\projects\work\xteeonmetsas)
+2020-03-03 18:11:18.782  INFO 17980 --- [main] ee.tieto.XteeStubApplication             : No active profile set, falling back to default profiles: default
+2020-03-03 18:11:18.860  INFO 17980 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:11:18 EET 2020]; root of context hierarchy
+2020-03-03 18:11:20.417  INFO 17980 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-03 18:11:20.493  INFO 17980 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b9ef05c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 18:11:20.977  INFO 17980 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 29999 (http)
+2020-03-03 18:11:20.987  INFO 17980 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-03-03 18:11:20.989  INFO 17980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2020-03-03 18:11:21.135  INFO 17980 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-03 18:11:21.135  INFO 17980 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2275 ms
+2020-03-03 18:11:21.453  INFO 17980 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-03 18:11:21.457  INFO 17980 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 18:11:21.458  INFO 17980 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 18:11:21.458  INFO 17980 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 18:11:21.458  INFO 17980 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 18:11:25.473  INFO 17980 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 18:11:25.479  INFO 17980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-03 18:11:25.539  INFO 17980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-03 18:11:25.540  INFO 17980 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-03 18:11:25.541  INFO 17980 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-03-03 18:11:25.684  INFO 17980 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-03 18:11:25.870  INFO 17980 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-03-03 18:11:25.974  INFO 17980 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-03 18:11:26.327  INFO 17980 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:11:18 EET 2020]; root of context hierarchy
+2020-03-03 18:11:26.393  INFO 17980 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cgi-bin/consumer_proxy]}" onto public java.lang.String ee.tieto.XteeStubApplication.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,java.net.URISyntaxException,java.sql.SQLException
+2020-03-03 18:11:26.395  INFO 17980 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-03 18:11:26.396  INFO 17980 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-03 18:11:26.429  INFO 17980 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:11:26.429  INFO 17980 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:11:26.460  INFO 17980 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:11:26.706  INFO 17980 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-03 18:11:26.755  INFO 17980 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 29999 (http)
+2020-03-03 18:11:26.759  INFO 17980 --- [main] ee.tieto.XteeStubApplication             : Started XteeStubApplication in 8.394 seconds (JVM running for 10.091)
+2020-03-03 18:11:32.847  INFO 17980 --- [Thread-17] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:11:18 EET 2020]; root of context hierarchy
+2020-03-03 18:11:32.849  INFO 17980 --- [Thread-17] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2020-03-03 18:11:32.850  INFO 17980 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-03 18:11:41.167  INFO 17616 --- [main] ee.tieto.XteeStubApplication             : Starting XteeStubApplication on WL360767 with PID 17616 (C:\Users\liibepau\Documents\projects\work\xteeonmetsas\target\classes started by liibepau in C:\Users\liibepau\Documents\projects\work\xteeonmetsas)
+2020-03-03 18:11:41.173  INFO 17616 --- [main] ee.tieto.XteeStubApplication             : No active profile set, falling back to default profiles: default
+2020-03-03 18:11:41.249  INFO 17616 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:11:41 EET 2020]; root of context hierarchy
+2020-03-03 18:11:42.699  INFO 17616 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-03-03 18:11:42.764  INFO 17616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$389cdac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-03 18:11:43.132  INFO 17616 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 29999 (http)
+2020-03-03 18:11:43.141  INFO 17616 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2020-03-03 18:11:43.142  INFO 17616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2020-03-03 18:11:43.259  INFO 17616 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-03 18:11:43.259  INFO 17616 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2010 ms
+2020-03-03 18:11:43.538  INFO 17616 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-03-03 18:11:43.541  INFO 17616 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-03 18:11:43.542  INFO 17616 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-03 18:11:43.542  INFO 17616 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-03-03 18:11:43.542  INFO 17616 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-03 18:11:47.484  INFO 17616 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-03-03 18:11:47.490  INFO 17616 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-03 18:11:47.545  INFO 17616 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2020-03-03 18:11:47.546  INFO 17616 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-03 18:11:47.547  INFO 17616 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2020-03-03 18:11:47.659  INFO 17616 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-03-03 18:11:47.852  INFO 17616 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2020-03-03 18:11:47.957  INFO 17616 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-03 18:11:48.366  INFO 17616 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@266374ef: startup date [Tue Mar 03 18:11:41 EET 2020]; root of context hierarchy
+2020-03-03 18:11:48.417  INFO 17616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/cgi-bin/consumer_proxy]}" onto public java.lang.String ee.tieto.XteeStubApplication.home(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,java.net.URISyntaxException,java.sql.SQLException
+2020-03-03 18:11:48.419  INFO 17616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-03-03 18:11:48.419  INFO 17616 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-03-03 18:11:48.446  INFO 17616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:11:48.446  INFO 17616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:11:48.474  INFO 17616 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-03-03 18:11:48.690  INFO 17616 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-03-03 18:11:48.737  INFO 17616 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 29999 (http)
+2020-03-03 18:11:48.741  INFO 17616 --- [main] ee.tieto.XteeStubApplication             : Started XteeStubApplication in 8.014 seconds (JVM running for 10.463)
+2020-03-03 18:11:54.494  INFO 17616 --- [http-nio-29999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-03-03 18:11:54.495  INFO 17616 --- [http-nio-29999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-03-03 18:11:54.523  INFO 17616 --- [http-nio-29999-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms

@@ -1,54 +1,27 @@
 package ee.tieto;
 
-import com.google.common.collect.Lists;
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.orm.jpa.EntityScan;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.persistence.EntityManagerFactory;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.ProtocolException;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.net.URISyntaxException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.sql.SQLException;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
 
 @RestController
 @EnableAutoConfiguration
-@EntityScan(basePackages = "ee.mkm.ehr.domain")
 public class XteeStubApplication {
 	static transient final Logger logger = LoggerFactory.getLogger(XteeStubApplication.class);
 
 	static final long serialVersionUID = 1L;
-	protected HashSet _DontProxyHeaders = new HashSet();
-	@Autowired
-	EntityManagerFactory entityManagerFactory;
-
-	{
-		_DontProxyHeaders.add("proxy-connection");
-		_DontProxyHeaders.add("connection");
-		_DontProxyHeaders.add("keep-alive");
-		_DontProxyHeaders.add("transfer-encoding");
-		_DontProxyHeaders.add("te");
-		_DontProxyHeaders.add("trailer");
-		_DontProxyHeaders.add("proxy-authorization");
-		_DontProxyHeaders.add("proxy-authenticate");
-		_DontProxyHeaders.add("upgrade");
-	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(XteeStubApplication.class, args);
@@ -72,8 +45,7 @@ public class XteeStubApplication {
 		}
 	}
 
-
-	@RequestMapping(value="/cgi-bin/consumer_proxy")
+	@RequestMapping(value = "/cgi-bin/consumer_proxy")
 	public String home(HttpServletRequest req, HttpServletResponse res) throws IOException, URISyntaxException, SQLException {
 		System.out.println(getRequestBody(req));
 		res.setHeader("Content-Type", "application/xop+xml;charset=utf-8;type=\"text/xml\"");
@@ -150,122 +122,5 @@ public class XteeStubApplication {
 		res.getOutputStream().flush();
 		res.getOutputStream().close();
 		return "";
-	}
-	private List<Rule> getRules() throws IOException, URISyntaxException, SQLException {
-		List<Rule> rules = Lists.newArrayList();
-
-		for (File f : new File(/*this.getClass().getClassLoader().getResource(".").toURI().getPath() + "rules/replace"*/ "rules/replace")
-				.listFiles()) {
-			addRule(rules, f, false);
-		}
-
-		for (File f : new File(/*
-		 * this.getClass().getClassLoader().getResource(
-		 * ".").toURI().getPath() + "rules/replace"
-		 */ "rules6/replace").listFiles()) {
-			addRule(rules, f, true);
-		}
-		return rules;
-	}
-
-	public void addRule(List<Rule> rules, File f, boolean isXtee6) {
-		try {
-			List<String> lines = Files.readAllLines(Paths.get(f.getAbsolutePath()), Charset.forName("UTF-8"));
-			String y = lines.get(1).replace("<!--", "").trim();/** SPECIAL LINE */
-			lines.remove(1);
-			String k = lines.get(1).replace("-->", "").trim();/** SPECIAL LINE */
-			lines.remove(1);
-
-			addReplaceRule(rules, y, k, StringUtils.normalizeSpace(StringUtils.join(lines, "")), isXtee6);
-		} catch (Exception e) {
-			logger.error("RULE VIGANE:" + f.getName(), e);
-		}
-	}
-
-	protected void addReplaceRule(List<Rule> rules, String teenus, String condition, String parameter, boolean isXtee6) {
-		Rule r = new Rule();
-		r.type = "R"; /** replace */
-		r.teenus = teenus;
-		r.condition = condition;
-		r.parameter = parameter;
-		r.isXtee6 = isXtee6;
-		rules.add(r);
-	}
-
-	private Rule needsOverwriting(String xml, List<Rule> rules) {
-		for (Rule r : rules) {
-			if ("R".equals(r.type) && xml.contains(r.teenus) && xml.contains(r.condition) && (isXtee6Message(xml) == r.isXtee6)) {
-				return r;
-			}
-		}
-		return null;
-	}
-
-	public boolean isXtee6Message(String xml) {
-		return xml.contains("xRoadInstance");
-	}
-
-	private void copyHeaders(HttpServletRequest request, HttpServletResponse res, HttpURLConnection connection) throws ProtocolException {
-		// Set method
-		HttpURLConnection http = null;
-		if (connection instanceof HttpURLConnection) {
-			http = (HttpURLConnection) connection;
-			http.setRequestMethod(request.getMethod());
-			http.setInstanceFollowRedirects(false);
-		}
-
-		// check connection header
-		String connectionHdr = request.getHeader("Connection");
-		if (connectionHdr != null) {
-			connectionHdr = connectionHdr.toLowerCase();
-			if (connectionHdr.equals("keep-alive") || connectionHdr.equals("close"))
-				connectionHdr = null;
-		}
-
-		// copy headers
-		boolean xForwardedFor = false;
-		boolean hasContent = false;
-		Enumeration enm = request.getHeaderNames();
-		while (enm.hasMoreElements()) {
-			// TODO could be better than this!
-			String hdr = (String) enm.nextElement();
-			String lhdr = hdr.toLowerCase();
-
-			if (_DontProxyHeaders.contains(lhdr))
-				continue;
-			if (connectionHdr != null && connectionHdr.indexOf(lhdr) >= 0)
-				continue;
-
-			if ("content-type".equals(lhdr))
-				hasContent = true;
-
-			Enumeration vals = request.getHeaders(hdr);
-			while (vals.hasMoreElements()) {
-				String val = (String) vals.nextElement();
-				if (val != null) {
-					connection.addRequestProperty(hdr, val);
-					//                    context.log("req "+hdr+": "+val);
-					xForwardedFor |= "X-Forwarded-For".equalsIgnoreCase(hdr);
-				}
-			}
-		}
-
-		// Proxy headers
-		connection.setRequestProperty("Via", "1.1 (jetty)");
-		if (!xForwardedFor)
-			connection.addRequestProperty("X-Forwarded-For", request.getRemoteAddr());
-
-		// a little bit of cache control
-		String cache_control = request.getHeader("Cache-Control");
-		if (cache_control != null && (cache_control.indexOf("no-cache") >= 0 || cache_control.indexOf("no-store") >= 0))
-			connection.setUseCaches(false);
-	}
-
-	class Rule {
-		public String type;
-		public String teenus;
-		public String condition;
-		public String parameter;
-		public boolean isXtee6;
 	}
 }
