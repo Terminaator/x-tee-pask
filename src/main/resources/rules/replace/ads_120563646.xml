@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1
+<origTunnus>120563646</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">11065244</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37703304922</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehrd3b5120a64c240608cbf94afc314bb2e</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse>
+			<paring xmlns:ns2="http://www.maaamet.ee/">
+				<menAdrParam>
+					<esitajaKood>75020167</esitajaKood>
+					<menetlejaNimi>VELJO MÄNNISTE (17188)</menetlejaNimi>
+					<menetluseLiik>1</menetluseLiik>
+					<ainultKontroll>false</ainultKontroll>
+					<objektid>
+						<menobjekt>
+							<objektiLiik>EE</objektiLiik>
+							<adsOid>EE01132454</adsOid>
+							<origTunnus>120563646</origTunnus>
+							<oiguslikAlus>Kasutusloa taotlus nr. 1611371/03631</oiguslikAlus>
+							<aluseKuupaev>2016-06-10</aluseKuupaev>
+							<olek>K</olek>
+							<ruumiKuju>
+								<Polygon srsName="SDO:" xmlns:gml="http://www.opengis.net/gml">
+									<outerBoundaryIs>
+										<LinearRing>
+											<coordinates cs="," decimal="." ts=" ">507780.8,6571851.53
+												507790.77,6571845.73 507796.63,6571855.82
+												507786.66,6571861.61 507780.8,6571851.53 </coordinates>
+										</LinearRing>
+									</outerBoundaryIs>
+								</Polygon>
+							</ruumiKuju>
+							<kujuMoodustusviis>K</kujuMoodustusviis>
+							<aadressid>
+								<aadress>
+									<adsTase1>
+										<kood>37</kood>
+										<nimetus>Harju maakond</nimetus>
+									</adsTase1>
+									<adsTase2>
+										<kood>562</kood>
+										<nimetus>Padise vald</nimetus>
+									</adsTase2>
+									<adsTase3>
+										<nimetus>Madise küla</nimetus>
+									</adsTase3>
+									<adsTase4 />
+									<adsTase5 />
+									<adsTase6>
+										<nimetus>Urva</nimetus>
+									</adsTase6>
+									<adsTase7 />
+									<adsTase8 />
+									<punktX>6571853.67</punktX>
+									<punktY>507788.72</punktY>
+								</aadress>
+							</aadressid>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<origTunnus>120563646-2721058</origTunnus>
+							<oiguslikAlus>Kasutusloa taotlus nr. 1611371/03631</oiguslikAlus>
+							<aluseKuupaev>2016-06-10</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>E</tahis>
+							<korrus>1</korrus>
+							<hooneOrigTunnus>120563646</hooneOrigTunnus>
+						</menobjekt>
+					</objektid>
+				</menAdrParam>
+			</paring>
+			<keha xmlns:ns2="http://www.maaamet.ee/">
+				<ns2:ADSmenadresitResult>
+					<ns2:menadresitTulem>
+						<ns2:tulem>1</ns2:tulem>
+						<ns2:teade>[EE01132454] ADS teade: Objekti andmed ei muutunud
+						</ns2:teade>
+						<ns2:menetlusNr>10959529</ns2:menetlusNr>
+						<ns2:joustatud>2016-08-08T15:22:34+03:00</ns2:joustatud>
+						<ns2:objektid>
+							<ns2:menobjekt>
+								<ns2:objektiLiik>EE</ns2:objektiLiik>
+								<ns2:adobId>5341456</ns2:adobId>
+								<ns2:adsOid>EE01132454</ns2:adsOid>
+								<ns2:origTunnus>120563646</ns2:origTunnus>
+								<ns2:oiguslikAlus>Kasutusloa taotlus nr. 1611371/03631
+								</ns2:oiguslikAlus>
+								<ns2:aluseKuupaev>2016-06-10T00:00:00+03:00</ns2:aluseKuupaev>
+								<ns2:olek>K</ns2:olek>
+								<ns2:korrus>0</ns2:korrus>
+								<ns2:ruumiKuju>
+									<gml:Polygon srsName="EPSG:3301"
+										xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+										xmlns="" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:maa="http://www
+.maaamet.ee/"
+										xmlns:gml="http://www.opengis.net/gml" xmlns:ns12="http://www.maaamet.ee/"
+										xmlns:ads="http://producers.ads.xtee.riik.ee/producer/ads"
+										xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+										xmlns:xsi="http://www.w3.org/2
+001/XMLSchema-instance">
+										<gml:outerBoundaryIs>
+											<gml:LinearRing>
+												<gml:coordinates>507780.8,6571851.53 507790.77,6571845.73
+													507796.63,6571855.82 507786.66,6571861.61
+													507780.8,6571851.53
+												</gml:coordinates>
+											</gml:LinearRing>
+										</gml:outerBoundaryIs>
+									</gml:Polygon>
+								</ns2:ruumiKuju>
+									<ns2:kujuMoodustusviis>K</ns2:kujuMoodustusviis>
+									<ns2:aadress>Harju maakond, Padise vald, Madise küla, Urva</ns2:aadress>
+									<ns2:lahiAadress>Urva</ns2:lahiAadress>
+									<ns2:aadressid>
+										<ns2:aadress>
+											<ns2:adrId>299553</ns2:adrId>
+											<ns2:koodAadress>375624722000000005TRC000000000000</ns2:koodAadress>
+											<ns2:taisAadress>Harju maakond, Padise vald, Madise küla,
+												Urva</ns2:taisAadress>
+											<ns2:lahiAadress>Urva</ns2:lahiAadress>
+											<ns2:adsTase1>
+												<ns2:kood>37</ns2:kood>
+												<ns2:nimetus>Harju maakond</ns2:nimetus>
+												<ns2:nimetus_liigiga>Harju maakond</ns2:nimetus_liigiga>
+											</ns2:adsTase1>
+											<ns2:adsTase2>
+												<ns2:kood>562</ns2:kood>
+												<ns2:nimetus>Padise vald</ns2:nimetus>
+												<ns2:nimetus_liigiga>Padise vald</ns2:nimetus_liigiga>
+											</ns2:adsTase2>
+											<ns2:adsTase3>
+												<ns2:kood>4722</ns2:kood>
+												<ns2:nimetus>Madise küla</ns2:nimetus>
+												<ns2:nimetus_liigiga>Madise küla</ns2:nimetus_liigiga>
+											</ns2:adsTase3>
+											<ns2:adsTase4 />
+											<ns2:adsTase5 />
+											<ns2:adsTase6>
+												<ns2:kood>5TRC</ns2:kood>
+												<ns2:nimetus>Urva</ns2:nimetus>
+												<ns2:nimetus_liigiga>Urva</ns2:nimetus_liigiga>
+											</ns2:adsTase6>
+											<ns2:adsTase7 />
+											<ns2:adsTase8 />
+											<ns2:punktX>6571853.67</ns2:punktX>
+											<ns2:punktY>507788.72</ns2:punktY>
+										</ns2:aadress>
+									</ns2:aadressid>
+								</ns2:menobjekt>
+								</ns2:objektid>
+								</ns2:menadresitTulem>
+								</ns2:ADSmenadresitResult>
+			</keha>
+		</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1 
+<origTunnus>102006033</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns12="http://www.maaamet.ee/" 
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">11065244</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37703304922</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehrd3b5120a64c240608cbf94afc314bb2e</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse>
+			<paring xmlns:ns2="http://www.maaamet.ee/">
+				<menAdrParam>
+					<esitajaKood>75033483</esitajaKood>
+					<menetlejaNimi>JEVGENI FEDORENKO (1142252)</menetlejaNimi>
+					<menetluseLiik>1</menetluseLiik>
+					<ainultKontroll>false</ainultKontroll>
+					<objektid>
+						<menobjekt>
+							<objektiLiik>EE</objektiLiik>
+							<adsOid>EE00664155</adsOid>
+							<origTunnus>102006033</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>K</olek>
+							<ruumiKuju>
+								<Polygon srsName="SDO:" xmlns:gml="http://www.opengis.net/gml">
+									<outerBoundaryIs>
+										<LinearRing>
+											<coordinates cs="," decimal="." ts=" ">693830.25,6585095.72
+												693835.99,6585101.68 693837.74,6585099.99
+												693845.96,6585108.51 693847.04,6585107.47
+												693859.97,6585120.89 693856.48,6585124.26
+												693855.15,6585122.76 693845.32,6585132.15
+												693839.59,6585125.84 693836.81,6585122.97
+												693837.84,6585121.99 693836.59,6585120.66
+												693835.51,6585121.69 693831.69,6585117.73
+												693832.81,6585116.64 693829.33,6585112.93
+												693824.22,6585117.85 693816.06,6585109.43
+												693830.25,6585095.72 </coordinates>
+										</LinearRing>
+									</outerBoundaryIs>
+								</Polygon>
+							</ruumiKuju>
+							<kujuMoodustusviis>M</kujuMoodustusviis>
+							<aadressid>
+								<aadress>
+									<adsTase1>
+										<kood>44</kood>
+										<nimetus>Ida-Viru maakond</nimetus>
+									</adsTase1>
+									<adsTase2>
+										<kood>251</kood>
+										<nimetus>Jõhvi vald</nimetus>
+									</adsTase2>
+									<adsTase3>
+										<nimetus>Jõhvi linn</nimetus>
+									</adsTase3>
+									<adsTase4 />
+									<adsTase5>
+										<nimetus>Viru tn</nimetus>
+									</adsTase5>
+									<adsTase6 />
+									<adsTase7>
+										<nimetus>3</nimetus>
+									</adsTase7>
+									<adsTase8 />
+									<punktX>6585112.25</punktX>
+									<punktY>693838.02</punktY>
+								</aadress>
+							</aadressid>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01264776</adsOid>
+							<origTunnus>102006033-1157400</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>9</tahis>
+							<korrus>1</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01264779</adsOid>
+							<origTunnus>102006033-1157402</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>11</tahis>
+							<korrus>2</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01264782</adsOid>
+							<origTunnus>102006033-1157404</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>12</tahis>
+							<korrus>2</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01264785</adsOid>
+							<origTunnus>102006033-1157406</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>13</tahis>
+							<korrus>2</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01264789</adsOid>
+							<origTunnus>102006033-1157408</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>14</tahis>
+							<korrus>2</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01264795</adsOid>
+							<origTunnus>102006033-1174936</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>6</tahis>
+							<korrus>2</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>MR</objektiLiik>
+							<adsOid>MR01264803</adsOid>
+							<origTunnus>102006033-1255064</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>4</tahis>
+							<korrus>2</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>MR</objektiLiik>
+							<adsOid>MR01264808</adsOid>
+							<origTunnus>102006033-1255066</origTunnus>
+							<oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958</oiguslikAlus>
+							<aluseKuupaev>2016-07-28</aluseKuupaev>
+							<olek>T</olek>
+							<tahis>1</tahis>
+							<korrus>1</korrus>
+							<hooneOrigTunnus>102006033</hooneOrigTunnus>
+						</menobjekt>
+					</objektid>
+				</menAdrParam>
+			</paring>
+			<keha>
+				<ns12:ADSmenadresitResult>
+					<ns12:menadresitTulem>
+						<ns12:tulem>1</ns12:tulem>
+						<ns12:teade>[EE00664155] ADS teade: Objekti andmed ei muutunud
+						</ns12:teade>
+						<ns12:menetlusNr>10956301</ns12:menetlusNr>
+						<ns12:joustatud>2016-08-01T14:47:20+03:00</ns12:joustatud>
+						<ns12:objektid>
+							<ns12:menobjekt>
+								<ns12:objektiLiik>EE</ns12:objektiLiik>
+								<ns12:adobId>7290186</ns12:adobId>
+								<ns12:adsOid>EE00664155</ns12:adsOid>
+								<ns12:origTunnus>102006033</ns12:origTunnus>
+								<ns12:oiguslikAlus>Ehitusloa taotlus nr. 1611271/12958
+								</ns12:oiguslikAlus>
+								<ns12:aluseKuupaev>2016-07-28T00:00:00+03:00</ns12:aluseKuupaev>
+								<ns12:olek>K</ns12:olek>
+								<ns12:korrus>0</ns12:korrus>
+								<ns12:ruumiKuju>
+									<gml:Polygon srsName="EPSG:3301"
+										xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+										xmlns="" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:maa="http://www.maaamet.ee/"
+										xmlns:gml="http://www.opengis.net/gml" xmlns:ns12="http://www.maaamet.ee/"
+										xmlns:ads="http://producers.ads.xtee.riik.ee/producer/ads"
+										xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+										<gml:outerBoundaryIs>
+											<gml:LinearRing>
+												<gml:coordinates>693830.25,6585095.72 693835.99,6585101.68
+													693837.74,6585099.99 693845.96,6585108.51
+													693847.04,6585107.47 693859.97,6585120.89
+													693856.48,6585124.26 693855.15,6585122.76
+													693845.32,6585132.15 693839.59,6585125.84
+													693836.81,6585122.97 693837.84,6585121.99
+													693836.59,6585120.66 693835.51,6585121.69
+													693831.69,6585117.73 693832.81,6585116.64
+													693829.33,6585112.93 693824.22,6585117.85
+													693816.06,6585109.43 693830.25,6585095.72</gml:coordinates>
+											</gml:LinearRing>
+										</gml:outerBoundaryIs>
+									</gml:Polygon>
+								</ns12:ruumiKuju>
+								<ns12:kujuMoodustusviis>M</ns12:kujuMoodustusviis>
+								<ns12:aadress>Ida-Viru maakond, Jõhvi vald, Jõhvi linn, Viru tn
+									3</ns12:aadress>
+								<ns12:lahiAadress>Viru tn 3</ns12:lahiAadress>
+								<ns12:aadressid>
+									<ns12:aadress>
+										<ns12:adrId>626799</ns12:adrId>
+										<ns12:koodAadress>4425122700000009T00003A2E00000000</ns12:koodAadress>
+										<ns12:taisAadress>Ida-Viru maakond, Jõhvi vald, Jõhvi linn,
+											Viru tn 3</ns12:taisAadress>
+										<ns12:lahiAadress>Viru tn 3</ns12:lahiAadress>
+										<ns12:adsTase1>
+											<ns12:kood>44</ns12:kood>
+											<ns12:nimetus>Ida-Viru maakond</ns12:nimetus>
+											<ns12:nimetus_liigiga>Ida-Viru maakond</ns12:nimetus_liigiga>
+										</ns12:adsTase1>
+										<ns12:adsTase2>
+											<ns12:kood>251</ns12:kood>
+											<ns12:nimetus>Jõhvi vald</ns12:nimetus>
+											<ns12:nimetus_liigiga>Jõhvi vald</ns12:nimetus_liigiga>
+										</ns12:adsTase2>
+										<ns12:adsTase3>
+											<ns12:kood>2270</ns12:kood>
+											<ns12:nimetus>Jõhvi linn</ns12:nimetus>
+											<ns12:nimetus_liigiga>Jõhvi linn</ns12:nimetus_liigiga>
+										</ns12:adsTase3>
+										<ns12:adsTase4 />
+										<ns12:adsTase5>
+											<ns12:kood>009T</ns12:kood>
+											<ns12:nimetus>Viru tn</ns12:nimetus>
+											<ns12:nimetus_liigiga>Viru tänav</ns12:nimetus_liigiga>
+										</ns12:adsTase5>
+										<ns12:adsTase6 />
+										<ns12:adsTase7>
+											<ns12:kood>3A2E</ns12:kood>
+											<ns12:nimetus>3</ns12:nimetus>
+											<ns12:nimetus_liigiga>3</ns12:nimetus_liigiga>
+										</ns12:adsTase7>
+										<ns12:adsTase8 />
+										<ns12:punktX>6585112.25</ns12:punktX>
+										<ns12:punktY>693838.02</ns12:punktY>
+									</ns12:aadress>
+								</ns12:aadressid>
+							</ns12:menobjekt>
+						</ns12:objektid>
+					</ns12:menadresitTulem>
+				</ns12:ADSmenadresitResult>
+			</keha>
+		</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

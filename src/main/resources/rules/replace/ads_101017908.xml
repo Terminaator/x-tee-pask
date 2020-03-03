@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1
+<origTunnus>101017908</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">70003158</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37105210216</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehre612a7b5896f4adfa425b234076d23ca</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse>
+			<paring xmlns:ns2="http://www.maaamet.ee/">
+				<menAdrParam>
+					<esitajaKood>75023823</esitajaKood>
+					<menetlejaNimi>ANDRUS TAMBOOM (12918170)</menetlejaNimi>
+					<menetluseLiik>1</menetluseLiik>
+					<ainultKontroll>false</ainultKontroll>
+					<objektid>
+						<menobjekt>
+							<objektiLiik>EE</objektiLiik>
+							<adsOid>EE01655068</adsOid>
+							<origTunnus>101017908</origTunnus>
+							<oiguslikAlus>Registri paranduskanne nr. 1711522/00096</oiguslikAlus>
+							<aluseKuupaev>2017-02-23</aluseKuupaev>
+							<olek>K</olek>
+							<ruumiKuju>
+								<Polygon srsName="SDO:" xmlns:gml="http://www.opengis.net/gml">
+									<outerBoundaryIs>
+										<LinearRing>
+											<coordinates cs="," decimal="." ts=" ">535752.76,6580750.49
+												535739.49,6580749.72 535740.33,6580735.74
+												535754.08,6580736.56 535754.84,6580736.61
+												535754.4,6580744.07 535753.19,6580744.04
+												535752.76,6580750.49 </coordinates>
+										</LinearRing>
+									</outerBoundaryIs>
+								</Polygon>
+							</ruumiKuju>
+							<kujuMoodustusviis>K</kujuMoodustusviis>
+							<aadressid>
+								<aadress>
+									<adsTase1>
+										<kood>37</kood>
+										<nimetus>Harju maakond</nimetus>
+									</adsTase1>
+									<adsTase2>
+										<kood>784</kood>
+										<nimetus>Tallinn</nimetus>
+									</adsTase2>
+									<adsTase3>
+										<nimetus>Nõmme linnaosa</nimetus>
+									</adsTase3>
+									<adsTase4 />
+									<adsTase5>
+										<nimetus>Pärnu mnt</nimetus>
+									</adsTase5>
+									<adsTase6 />
+									<adsTase7>
+										<nimetus>526</nimetus>
+									</adsTase7>
+									<adsTase8 />
+									<punktX>6580743.16</punktX>
+									<punktY>535747.17</punktY>
+								</aadress>
+							</aadressid>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER01711658</adsOid>
+							<origTunnus>101017908-2051314</origTunnus>
+							<oiguslikAlus>Registri paranduskanne nr. 1711522/00096
+							</oiguslikAlus>
+							<aluseKuupaev>2017-02-23</aluseKuupaev>
+							<olek>T</olek>
+							<korrus>1</korrus>
+							<kujuMoodustusviis>A</kujuMoodustusviis>
+							<hooneOrigTunnus>101017908</hooneOrigTunnus>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>MR</objektiLiik>
+							<adsOid>MR01711659</adsOid>
+							<origTunnus>101017908-2337256</origTunnus>
+							<oiguslikAlus>Registri paranduskanne nr. 1711522/00096
+							</oiguslikAlus>
+							<aluseKuupaev>2017-02-23</aluseKuupaev>
+							<olek>T</olek>
+							<korrus>1</korrus>
+							<kujuMoodustusviis>A</kujuMoodustusviis>
+							<hooneOrigTunnus>101017908</hooneOrigTunnus>
+						</menobjekt>
+					</objektid>
+				</menAdrParam>
+			</paring>
+			<keha xmlns:ns2="http://www.maaamet.ee/">
+				<ns2:ADSmenadresitResult>
+					<ns2:menadresitTulem>
+						<ns2:tulem>1</ns2:tulem>
+						<ns2:teade>[ER01711658] ADS teade: Objekt tühistati. Komponent
+							AAH4 tasemel 8 tühistati.
+							[MR01711659] ADS teade: Objekt tühistati. Komponent G9CL tasemel 8 tühistati.
+							[EE01655068] ADS teade: Objekti andmed ei muutunud
+						</ns2:teade>
+						<ns2:menetlusNr>11141361</ns2:menetlusNr>
+						<ns2:joustatud>2017-02-23T12:05:24+02:00</ns2:joustatud>
+						<ns2:objektid>
+							<ns2:menobjekt>
+								<ns2:objektiLiik>EE</ns2:objektiLiik>
+								<ns2:adobId>6715065</ns2:adobId>
+								<ns2:adsOid>EE01655068</ns2:adsOid>
+								<ns2:origTunnus>101017908</ns2:origTunnus>
+								<ns2:oiguslikAlus>Registri paranduskanne nr. 1711522/00096
+								</ns2:oiguslikAlus>
+								<ns2:aluseKuupaev>2017-02-23T00:00:00+02:00</ns2:aluseKuupaev>
+								<ns2:olek>K</ns2:olek>
+								<ns2:korrus>0</ns2:korrus>
+								<ns2:ruumiKuju>
+									<gml:Polygon srsName="EPSG:3301"
+										xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+										xmlns="http://www.maaamet.ee/" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:maa="http://www.maaamet.ee/"
+										xmlns:gml="http://www.opengis.net/gml" 
+										xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+										<gml:outerBoundaryIs>
+											<gml:LinearRing>
+												<gml:coordinates>535752.76,6580750.49 535739.49,6580749.72
+													535740.33,6580735.74 535754.08,6580736.56
+													535754.84,6580736.61 535754.4,6580744.07
+													535753.19,6580744.04 535752.76,6580750.49</gml:coordinates>
+											</gml:LinearRing>
+										</gml:outerBoundaryIs>
+									</gml:Polygon>
+								</ns2:ruumiKuju>
+								<ns2:kujuMoodustusviis>K</ns2:kujuMoodustusviis>
+								<ns2:aadress>Harju maakond, Tallinn, Nõmme linnaosa, Pärnu mnt
+									526</ns2:aadress>
+								<ns2:lahiAadress>Pärnu mnt 526</ns2:lahiAadress>
+								<ns2:aadressid>
+									<ns2:aadress>
+										<ns2:adrId>2126031</ns2:adrId>
+										<ns2:koodAadress>37784052400000KGJ00005HEJ00000000
+										</ns2:koodAadress>
+										<ns2:taisAadress>Harju maakond, Tallinn, Nõmme linnaosa, Pärnu
+											mnt 526</ns2:taisAadress>
+										<ns2:lahiAadress>Pärnu mnt 526</ns2:lahiAadress>
+										<ns2:adsTase1>
+											<ns2:kood>37</ns2:kood>
+											<ns2:nimetus>Harju maakond</ns2:nimetus>
+											<ns2:nimetus_liigiga>Harju maakond</ns2:nimetus_liigiga>
+										</ns2:adsTase1>
+										<ns2:adsTase2>
+											<ns2:kood>784</ns2:kood>
+											<ns2:nimetus>Tallinn</ns2:nimetus>
+											<ns2:nimetus_liigiga>Tallinn</ns2:nimetus_liigiga>
+										</ns2:adsTase2>
+										<ns2:adsTase3>
+											<ns2:kood>0524</ns2:kood>
+											<ns2:nimetus>Nõmme linnaosa</ns2:nimetus>
+											<ns2:nimetus_liigiga>Nõmme linnaosa</ns2:nimetus_liigiga>
+										</ns2:adsTase3>
+										<ns2:adsTase4 />
+										<ns2:adsTase5>
+											<ns2:kood>0KGJ</ns2:kood>
+											<ns2:nimetus>Pärnu mnt</ns2:nimetus>
+											<ns2:nimetus_liigiga>Pärnu maantee</ns2:nimetus_liigiga>
+										</ns2:adsTase5>
+										<ns2:adsTase6 />
+										<ns2:adsTase7>
+											<ns2:kood>5HEJ</ns2:kood>
+											<ns2:nimetus>526</ns2:nimetus>
+											<ns2:nimetus_liigiga>526</ns2:nimetus_liigiga>
+										</ns2:adsTase7>
+										<ns2:adsTase8 />
+										<ns2:punktX>6580743.16</ns2:punktX>
+										<ns2:punktY>535747.17</ns2:punktY>
+									</ns2:aadress>
+								</ns2:aadressid>
+							</ns2:menobjekt>
+							<ns2:menobjekt>
+								<ns2:objektiLiik>ER</ns2:objektiLiik>
+								<ns2:adobId>6601441</ns2:adobId>
+								<ns2:adsOid>ER01711658</ns2:adsOid>
+								<ns2:origTunnus>101017908-2051314</ns2:origTunnus>
+								<ns2:oiguslikAlus>Aadressiandmete süsteemi infosüsteemi menetlus
+									nr 11141361</ns2:oiguslikAlus>
+								<ns2:aluseKuupaev>0001-01-03T00:00:00+02:00</ns2:aluseKuupaev>
+								<ns2:olek>T</ns2:olek>
+								<ns2:tahis>1</ns2:tahis>
+								<ns2:korrus>1</ns2:korrus>
+								<ns2:ruumiKuju>
+									<gml:Point srsName="EPSG:3301"
+										xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+										xmlns="http://www.maaamet.ee/" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:maa="http://www.maaamet.ee/"
+										xmlns:gml="http://www.opengis.net/gml"
+										xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+										<gml:coordinates>535747.17,6580743.16</gml:coordinates>
+									</gml:Point>
+								</ns2:ruumiKuju>
+								<ns2:kujuMoodustusviis>A</ns2:kujuMoodustusviis>
+								<ns2:hooneAdsOid>EE01655068</ns2:hooneAdsOid>
+								<ns2:aadress>Harju maakond, Tallinn, Nõmme linnaosa, Pärnu mnt
+									526-1</ns2:aadress>
+								<ns2:lahiAadress>Pärnu mnt 526-1</ns2:lahiAadress>
+								<ns2:aadressid>
+									<ns2:aadress>
+										<ns2:adrId>2209749</ns2:adrId>
+										<ns2:koodAadress>37784052400000KGJ00005HEJAAH40000
+										</ns2:koodAadress>
+										<ns2:taisAadress>Harju maakond, Tallinn, Nõmme linnaosa, Pärnu
+											mnt 526-1</ns2:taisAadress>
+										<ns2:lahiAadress>Pärnu mnt 526-1</ns2:lahiAadress>
+										<ns2:adsTase1>
+											<ns2:kood>37</ns2:kood>
+											<ns2:nimetus>Harju maakond</ns2:nimetus>
+											<ns2:nimetus_liigiga>Harju maakond</ns2:nimetus_liigiga>
+										</ns2:adsTase1>
+										<ns2:adsTase2>
+											<ns2:kood>784</ns2:kood>
+											<ns2:nimetus>Tallinn</ns2:nimetus>
+											<ns2:nimetus_liigiga>Tallinn</ns2:nimetus_liigiga>
+										</ns2:adsTase2>
+										<ns2:adsTase3>
+											<ns2:kood>0524</ns2:kood>
+											<ns2:nimetus>Nõmme linnaosa</ns2:nimetus>
+											<ns2:nimetus_liigiga>Nõmme linnaosa</ns2:nimetus_liigiga>
+										</ns2:adsTase3>
+										<ns2:adsTase4 />
+										<ns2:adsTase5>
+											<ns2:kood>0KGJ</ns2:kood>
+											<ns2:nimetus>Pärnu mnt</ns2:nimetus>
+											<ns2:nimetus_liigiga>Pärnu maantee</ns2:nimetus_liigiga>
+										</ns2:adsTase5>
+										<ns2:adsTase6 />
+										<ns2:adsTase7>
+											<ns2:kood>5HEJ</ns2:kood>
+											<ns2:nimetus>526</ns2:nimetus>
+											<ns2:nimetus_liigiga>526</ns2:nimetus_liigiga>
+										</ns2:adsTase7>
+										<ns2:adsTase8>
+											<ns2:kood>AAH4</ns2:kood>
+											<ns2:nimetus>1</ns2:nimetus>
+											<ns2:nimetus_liigiga>1</ns2:nimetus_liigiga>
+										</ns2:adsTase8>
+										<ns2:punktX>6580743.16</ns2:punktX>
+										<ns2:punktY>535747.17</ns2:punktY>
+									</ns2:aadress>
+								</ns2:aadressid>
+							</ns2:menobjekt>
+							<ns2:menobjekt>
+								<ns2:objektiLiik>MR</ns2:objektiLiik>
+								<ns2:adobId>7129745</ns2:adobId>
+								<ns2:adsOid>MR01711659</ns2:adsOid>
+								<ns2:origTunnus>101017908-2337256</ns2:origTunnus>
+								<ns2:oiguslikAlus>Aadressiandmete süsteemi infosüsteemi menetlus
+									nr 11141361</ns2:oiguslikAlus>
+								<ns2:aluseKuupaev>0001-01-03T00:00:00+02:00</ns2:aluseKuupaev>
+								<ns2:olek>T</ns2:olek>
+								<ns2:tahis>2</ns2:tahis>
+								<ns2:korrus>1</ns2:korrus>
+								<ns2:ruumiKuju>
+									<gml:Point srsName="EPSG:3301"
+										xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+										xmlns="http://www.maaamet.ee/" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd"
+										xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:maa="http://www.maaamet.ee/"
+										xmlns:gml="http://www.opengis.net/gml"
+										xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+										xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+										<gml:coordinates>535747.17,6580743.16</gml:coordinates>
+									</gml:Point>
+								</ns2:ruumiKuju>
+								<ns2:kujuMoodustusviis>A</ns2:kujuMoodustusviis>
+								<ns2:hooneAdsOid>EE01655068</ns2:hooneAdsOid>
+								<ns2:aadress>Harju maakond, Tallinn, Nõmme linnaosa, Pärnu mnt
+									526-2</ns2:aadress>
+								<ns2:lahiAadress>Pärnu mnt 526-2</ns2:lahiAadress>
+								<ns2:aadressid>
+									<ns2:aadress>
+										<ns2:adrId>2449748</ns2:adrId>
+										<ns2:koodAadress>37784052400000KGJ00005HEJG9CL0000
+										</ns2:koodAadress>
+										<ns2:taisAadress>Harju maakond, Tallinn, Nõmme linnaosa, Pärnu
+											mnt 526-2</ns2:taisAadress>
+										<ns2:lahiAadress>Pärnu mnt 526-2</ns2:lahiAadress>
+										<ns2:adsTase1>
+											<ns2:kood>37</ns2:kood>
+											<ns2:nimetus>Harju maakond</ns2:nimetus>
+											<ns2:nimetus_liigiga>Harju maakond</ns2:nimetus_liigiga>
+										</ns2:adsTase1>
+										<ns2:adsTase2>
+											<ns2:kood>784</ns2:kood>
+											<ns2:nimetus>Tallinn</ns2:nimetus>
+											<ns2:nimetus_liigiga>Tallinn</ns2:nimetus_liigiga>
+										</ns2:adsTase2>
+										<ns2:adsTase3>
+											<ns2:kood>0524</ns2:kood>
+											<ns2:nimetus>Nõmme linnaosa</ns2:nimetus>
+											<ns2:nimetus_liigiga>Nõmme linnaosa</ns2:nimetus_liigiga>
+										</ns2:adsTase3>
+										<ns2:adsTase4 />
+										<ns2:adsTase5>
+											<ns2:kood>0KGJ</ns2:kood>
+											<ns2:nimetus>Pärnu mnt</ns2:nimetus>
+											<ns2:nimetus_liigiga>Pärnu maantee</ns2:nimetus_liigiga>
+										</ns2:adsTase5>
+										<ns2:adsTase6 />
+										<ns2:adsTase7>
+											<ns2:kood>5HEJ</ns2:kood>
+											<ns2:nimetus>526</ns2:nimetus>
+											<ns2:nimetus_liigiga>526</ns2:nimetus_liigiga>
+										</ns2:adsTase7>
+										<ns2:adsTase8>
+											<ns2:kood>G9CL</ns2:kood>
+											<ns2:nimetus>2</ns2:nimetus>
+											<ns2:nimetus_liigiga>2</ns2:nimetus_liigiga>
+										</ns2:adsTase8>
+										<ns2:punktX>6580743.16</ns2:punktX>
+										<ns2:punktY>535747.17</ns2:punktY>
+									</ns2:aadress>
+								</ns2:aadressid>
+							</ns2:menobjekt>
+						</ns2:objektid>
+					</ns2:menadresitTulem>
+				</ns2:ADSmenadresitResult>
+			</keha>
+		</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

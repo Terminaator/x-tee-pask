@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="hibernate.connection.url">${hibernate_url_dev}</property>
+        <property name="hibernate.connection.username">EHR</property>
+        <property name="hibernate.connection.password">ehr123</property>
+        <property name="hibernate.default_schema">EHR</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="show_sql">true</property>
+		
+        <!-- SQL dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+        <!-- Specify session context -->
+        <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+        
+		<mapping package="ee.mkm.ehr.domain" />
+
+    </session-factory>
+
+</hibernate-configuration>

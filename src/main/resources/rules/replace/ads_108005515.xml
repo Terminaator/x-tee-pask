@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1
+<origTunnus>108005515</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">11065244</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37703304922</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehrd3b5120a64c240608cbf94afc314bb2e</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse>
+	<paring xmlns:ns2="http://www.maaamet.ee/">
+    <menAdrParam>
+        <esitajaKood>75010003</esitajaKood>
+        <menetlejaNimi>GUIDO KRAAV (1012616)</menetlejaNimi>
+        <menetluseLiik>1</menetluseLiik>
+        <ainultKontroll>false</ainultKontroll>
+        <objektid>
+            <menobjekt>
+                <objektiLiik>EE</objektiLiik>
+                <adsOid>EE00905409</adsOid>
+                <origTunnus>108005515</origTunnus>
+                <oiguslikAlus>Kasutusloa taotlus nr. 1611371/11613</oiguslikAlus>
+                <aluseKuupaev>2016-10-25</aluseKuupaev>
+                <olek>K</olek>
+                <ruumiKuju>
+                    <Polygon srsName="SDO:" xmlns:gml="http://www.opengis.net/gml">
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates cs="," decimal="." ts=" ">633062.45,6539631.53 633050.09,6539632.42 633049.49,6539624.1 633052.81,6539623.86 633052.61,6539621.09 633057.88,6539620.72 633058.08,6539623.51 633061.85,6539623.24 633062.45,6539631.53 </coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </ruumiKuju>
+                <kujuMoodustusviis>K</kujuMoodustusviis>
+                <aadressid>
+                    <aadress>
+                        <adsTase1>
+                            <kood>59</kood>
+                            <nimetus>Lääne-Viru maakond</nimetus>
+                        </adsTase1>
+                        <adsTase2>
+                            <kood>660</kood>
+                            <nimetus>Rakke vald</nimetus>
+                        </adsTase2>
+                        <adsTase3>
+                            <nimetus>Mõisamaa küla</nimetus>
+                        </adsTase3>
+                        <adsTase4/>
+                        <adsTase5/>
+                        <adsTase6>
+                            <nimetus>Pähkli</nimetus>
+                        </adsTase6>
+                        <adsTase7/>
+                        <adsTase8/>
+                        <punktX>6539626.43</punktX>
+                        <punktY>633055.97</punktY>
+                    </aadress>
+                </aadressid>
+            </menobjekt>
+            <menobjekt>
+                <objektiLiik>ER</objektiLiik>
+                <origTunnus>108005515-1093040</origTunnus>
+                <oiguslikAlus>Kasutusloa taotlus nr. 1611371/11613</oiguslikAlus>
+                <aluseKuupaev>2016-10-25</aluseKuupaev>
+                <olek>T</olek>
+                <tahis>1</tahis>
+                <korrus>1</korrus>
+                <hooneOrigTunnus>108005515</hooneOrigTunnus>
+            </menobjekt>
+        </objektid>
+    </menAdrParam>
+</paring>
+
+<keha xmlns:ns2="http://www.maaamet.ee/">
+ <ns2:ADSmenadresitResult>
+        <ns2:menadresitTulem>
+            <ns2:tulem>1</ns2:tulem>
+            <ns2:teade>[EE00905409] ADS teade: Objekti andmed ei muutunud
+</ns2:teade>
+            <ns2:menetlusNr>11027703</ns2:menetlusNr>
+            <ns2:joustatud>2016-10-25T13:57:49+03:00</ns2:joustatud>
+            <ns2:objektid>
+                <ns2:menobjekt>
+                    <ns2:objektiLiik>EE</ns2:objektiLiik>
+                    <ns2:adobId>5808326</ns2:adobId>
+                    <ns2:adsOid>EE00905409</ns2:adsOid>
+                    <ns2:origTunnus>108005515</ns2:origTunnus>
+                    <ns2:oiguslikAlus>Kasutusloa taotlus nr. 1611371/11613</ns2:oiguslikAlus>
+                    <ns2:aluseKuupaev>2016-10-25T00:00:00+03:00</ns2:aluseKuupaev>
+                    <ns2:olek>K</ns2:olek>
+                    <ns2:korrus>0</ns2:korrus>
+                    <ns2:ruumiKuju>
+                        <gml:Polygon srsName="EPSG:3301" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://www.maaamet.ee/" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:maa="http://www.maaamet.ee/" xmlns:gml="http://www.opengis.net/gml" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                            <gml:outerBoundaryIs>
+                                <gml:LinearRing>
+                                    <gml:coordinates>633062.45,6539631.53 633050.09,6539632.42 633049.49,6539624.1 633052.81,6539623.86 633052.61,6539621.09 633057.88,6539620.72 633058.08,6539623.51 633061.85,6539623.24 633062.45,6539631
+.53</gml:coordinates>
+                                </gml:LinearRing>
+                            </gml:outerBoundaryIs>
+                        </gml:Polygon>
+                    </ns2:ruumiKuju>
+                    <ns2:kujuMoodustusviis>K</ns2:kujuMoodustusviis>
+                    <ns2:aadress>Lääne-Viru maakond, Rakke vald, Mõisamaa küla, Pähkli</ns2:aadress>
+                    <ns2:lahiAadress>Pähkli</ns2:lahiAadress>
+                    <ns2:aadressid>
+                        <ns2:aadress>
+                            <ns2:adrId>392282</ns2:adrId>
+                            <ns2:koodAadress>5966051320000000024FW000000000000</ns2:koodAadress>
+                            <ns2:taisAadress>Lääne-Viru maakond, Rakke vald, Mõisamaa küla, Pähkli</ns2:taisAadress>
+                            <ns2:lahiAadress>Pähkli</ns2:lahiAadress>
+                            <ns2:adsTase1>
+                                <ns2:kood>59</ns2:kood>
+                                <ns2:nimetus>Lääne-Viru maakond</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Lääne-Viru maakond</ns2:nimetus_liigiga>
+                            </ns2:adsTase1>
+                            <ns2:adsTase2>
+                                <ns2:kood>660</ns2:kood>
+                                <ns2:nimetus>Rakke vald</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Rakke vald</ns2:nimetus_liigiga>
+                            </ns2:adsTase2>
+                            <ns2:adsTase3>
+                                <ns2:kood>5132</ns2:kood>
+                                <ns2:nimetus>Mõisamaa küla</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Mõisamaa küla</ns2:nimetus_liigiga>
+                            </ns2:adsTase3>
+                            <ns2:adsTase4/>
+                            <ns2:adsTase5/>
+                            <ns2:adsTase6>
+                                <ns2:kood>24FW</ns2:kood>
+                                <ns2:nimetus>Pähkli</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Pähkli</ns2:nimetus_liigiga>
+                            </ns2:adsTase6>
+ <ns2:adsTase7/>
+                            <ns2:adsTase8/>
+                            <ns2:punktX>6539626.43</ns2:punktX>
+                            <ns2:punktY>633055.97</ns2:punktY>
+                        </ns2:aadress>
+                    </ns2:aadressid>
+                </ns2:menobjekt>
+            </ns2:objektid>
+        </ns2:menadresitTulem>
+    </ns2:ADSmenadresitResult>
+</keha>
+		</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

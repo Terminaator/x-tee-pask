@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1
+<origTunnus>120702375</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns12="http://www.maaamet.ee/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">11065244</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37703304922</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehrd3b5120a64c240608cbf94afc314bb2e</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse>
+			<paring xmlns:ns2="http://www.maaamet.ee/">
+				<menAdrParam>
+					<esitajaKood>75006546</esitajaKood>
+					<menetlejaNimi>TANEL EHRENP (12918172)</menetlejaNimi>
+					<menetluseLiik>1</menetluseLiik>
+					<ainultKontroll>true</ainultKontroll>
+					<objektid>
+						<menobjekt>
+							<objektiLiik>EE</objektiLiik>
+							<adsOid>EE03354635</adsOid>
+							<origTunnus>120702375</origTunnus>
+							<oiguslikAlus>Andmete esitamise teatis nr. 1611525/08034</oiguslikAlus>
+							<olek>K</olek>
+							<ruumiKuju>
+								<Polygon xmlns:gml="http://www.opengis.net/gml" srsName="SDO:">
+									<outerBoundaryIs>
+										<LinearRing>
+											<coordinates cs="," decimal="." ts=" ">658852.06,6476616.59
+												658872.94,6476623.22 658866.67,6476642.99
+												658845.79,6476636.36 658852.06,6476616.59 </coordinates>
+										</LinearRing>
+									</outerBoundaryIs>
+								</Polygon>
+							</ruumiKuju>
+							<kujuMoodustusviis>D</kujuMoodustusviis>
+							<aadressid>
+								<aadress>
+									<adsTase1>
+										<kood>78</kood>
+										<nimetus>Tartu maakond</nimetus>
+									</adsTase1>
+									<adsTase2>
+										<kood>795</kood>
+										<nimetus>Tartu linn</nimetus>
+									</adsTase2>
+									<adsTase3 />
+									<adsTase4 />
+									<adsTase5>
+										<nimetus>Kummeli tn</nimetus>
+									</adsTase5>
+									<adsTase6 />
+									<adsTase7>
+										<nimetus>12</nimetus>
+									</adsTase7>
+									<adsTase8 />
+								</aadress>
+							</aadressid>
+						</menobjekt>
+						<menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER03354874</adsOid>
+							<origTunnus>120702375-2945190</origTunnus>
+							<oiguslikAlus>Andmete esitamise teatis nr. 1611525/08034</oiguslikAlus>
+							<olek>T</olek>
+							<tahis>2</tahis>
+							<korrus>1</korrus>
+							<kujuMoodustusviis>A</kujuMoodustusviis>
+							<hooneOrigTunnus>120702375</hooneOrigTunnus>
+						</menobjekt>
+					</objektid>
+				</menAdrParam>
+			</paring>
+			<keha>
+				<ns12:ADSmenadresitResult>
+				 <ns12:menadresitTulem>
+            <ns12:tulem>0</ns12:tulem>
+            <ns12:teade>ADS teade: leidub menetluse jõustamist takistavaid probleeme</ns12:teade>
+            <ns12:objektid>
+                <ns12:menobjekt>
+                			<objektiLiik>EE</objektiLiik>
+							<adsOid>EE03354635</adsOid>
+							<origTunnus>120702375</origTunnus>
+							<oiguslikAlus>Andmete esitamise teatis nr. 1611525/08034</oiguslikAlus>
+							<olek>K</olek>
+                    <ns12:adobId>0</ns12:adobId>
+                    <ns12:aluseKuupaev>2016-07-28T00:00:00+03:00</ns12:aluseKuupaev>
+                    <ns12:korrus>0</ns12:korrus>
+                  	<ns12:ruumiKuju>
+								<Polygon xmlns:gml="http://www.opengis.net/gml" srsName="SDO:">
+									<outerBoundaryIs>
+										<LinearRing>
+											<coordinates cs="," decimal="." ts=" ">658852.06,6476616.59
+												658872.94,6476623.22 658866.67,6476642.99
+												658845.79,6476636.36 658852.06,6476616.59 </coordinates>
+										</LinearRing>
+									</outerBoundaryIs>
+								</Polygon>
+							</ns12:ruumiKuju>
+                    <ns12:kujuMoodustusviis>D</ns12:kujuMoodustusviis>
+
+                </ns12:menobjekt>
+                <ns12:menobjekt>
+							<objektiLiik>ER</objektiLiik>
+							<adsOid>ER03354874</adsOid>
+							<origTunnus>120702375-2945190</origTunnus>
+							<oiguslikAlus>Andmete esitamise teatis nr. 1611525/08034</oiguslikAlus>
+							<olek>T</olek>
+							<tahis>2</tahis>
+							<korrus>1</korrus>
+							<kujuMoodustusviis>A</kujuMoodustusviis>
+							<hooneOrigTunnus>120702375</hooneOrigTunnus>
+						</ns12:menobjekt>
+            </ns12:objektid>
+        </ns12:menadresitTulem>
+    </ns12:ADSmenadresitResult>
+</keha>
+		</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

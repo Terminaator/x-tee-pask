@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header xmlns:xrd="http://x-road.eu/xsd/xroad.xsd" xmlns:id="http://x-road.eu/xsd/identifiers">
+        <xrd:client id:objectType="SUBSYSTEM">
+            <id:xRoadInstance>ee-test</id:xRoadInstance>
+            <id:memberClass>GOV</id:memberClass>
+            <id:memberCode>70003158</id:memberCode>
+            <id:subsystemCode>ehr</id:subsystemCode>
+        </xrd:client>
+        <xrd:service id:objectType="SERVICE">
+            <id:xRoadInstance>ee-test</id:xRoadInstance>
+            <id:memberClass>GOV</id:memberClass>
+            <id:memberCode>70003098</id:memberCode>
+            <id:subsystemCode>ads</id:subsystemCode>
+            <id:serviceCode>ADSmenadresit</id:serviceCode>
+            <id:serviceVersion>v1</id:serviceVersion>
+        </xrd:service>
+        <xrd:id>ehrb68d1924c9b14e87b01978a37c1277ff</xrd:id>
+        <xrd:requestHash algorithmId="http://www.w3.org/2001/04/xmlenc#sha512">
+            No177voz2PkiunMs0+pApa4Mz7sJZ+JhiNuaf06JfLRwM2s+Q0R0Hp7VOKx3wGCuaj4j+GB1nUZ7RICn6NerYw==
+        </xrd:requestHash>
+        <xrd:userId>EE37105210216</xrd:userId>
+        <xrd:protocolVersion>4.0
+        </xrd:protocolVersion><!-- <requestInfo xmlns=""><timestamp>2020-03-03T17:31:06.811</timestamp><logged>R-646973</logged></requestInfo> -->
+    </SOAP-ENV:Header>
+    <SOAP-ENV:Body>
+        <tns:ADSmenadresitResponse xmlns:tns="http://www.maaamet.ee">
+            <joustatud>2020-03-02T18:49:05+02:00</joustatud>
+            <menetlusNr>11922271</menetlusNr>
+            <objektid>
+                <menobjekt>
+                    <adsOid>EE03516069</adsOid>
+                    <objektiLiik>EE</objektiLiik>
+                    <origTunnus>120781715</origTunnus>
+                    <olek>K</olek>
+                    <taisAadress>Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Staapli tn 12</taisAadress>
+                    <lahiAadress>Staapli tn 12</lahiAadress>
+                    <oiguslikAlus>Kasutusloa taotlus nr. 2011371/00324</oiguslikAlus>
+                    <aluseKuupaev>2020-02-26</aluseKuupaev>
+                    <ruumiKuju>&lt;gml:Polygon xmlns:gml="http://www.opengis.net/gml" srsName="EPSG:3301"&gt;&lt;gml:exterior&gt;&lt;gml:LinearRing&gt;&lt;gml:posList&gt;541233.74
+                        6590621.04 541252.92 6590609.1 541260.28 6590620.9 541241.09 6590632.84 541233.75 6590621.04 541233.74 6590621.04&lt;/gml:posList&gt;&lt;/gml:LinearRing&gt;&lt;/gml:exterior&gt;&lt;/gml:Polygon&gt;
+                    </ruumiKuju>
+                    <kujuMoodustusviis>D</kujuMoodustusviis>
+                    <aadressid>
+                        <aadress>
+                            <taisAadress>Harju maakond, Tallinn, Põhja-Tallinna linnaosa, Staapli tn 12</taisAadress>
+                            <lahiAadress>Staapli tn 12</lahiAadress>
+                            <adrId>3490452</adrId>
+                            <adsTase1>
+                                <kood>37</kood>
+                                <nimetus>Harju maakond</nimetus>
+                                <nimetus_liigiga>Harju maakond</nimetus_liigiga>
+                            </adsTase1>
+                            <adsTase2>
+                                <kood>784</kood>
+                                <nimetus>Tallinn</nimetus>
+                                <nimetus_liigiga>Tallinn</nimetus_liigiga>
+                            </adsTase2>
+                            <adsTase3>
+                                <kood>0614</kood>
+                                <nimetus>Põhja-Tallinna linnaosa</nimetus>
+                                <nimetus_liigiga>Põhja-Tallinna linnaosa</nimetus_liigiga>
+                            </adsTase3>
+                            <adsTase5>
+                                <kood>0Q2V</kood>
+                                <nimetus>Staapli tn</nimetus>
+                                <nimetus_liigiga>Staapli tänav</nimetus_liigiga>
+                            </adsTase5>
+                            <adsTase7>
+                                <kood>9SGZ</kood>
+                                <nimetus>12</nimetus>
+                                <nimetus_liigiga>12</nimetus_liigiga>
+                            </adsTase7>
+                        </aadress>
+                    </aadressid>
+                </menobjekt>
+            </objektid>
+            <teade>[EE03516069] ADS teade: Objekt muudeti. Komponent 12/4 taastati tasemel 7. Komponent C9UV tasemel 7 tühistati.&#13;
+                [MR03722774] ADS teade: Objekt muudeti. Komponent 13 taastati tasemel 8. Komponent K7K2 tasemel 8 tühistati.&#13;
+                [ER03749385] ADS teade: Objekt muudeti. Komponent 2 taastati tasemel 8. Komponent K7K3 tasemel 8 tühistati.&#13;
+                [MR03756130] ADS teade: Objekt muudeti. Komponent 12 taastati tasemel 8. Komponent K7K1 tasemel 8 tühistati.&#13;
+                [ER03749386] ADS teade: Objekt muudeti. Komponent 6 taastati tasemel 8. Komponent K7K4 tasemel 8 tühistati.&#13;
+                [MR03749387] ADS teade: Objekt muudeti. Komponent 5 taastati tasemel 8. Komponent K7K5 tasemel 8 tühistati.&#13;
+                [ER03749388] ADS teade: Objekt muudeti. Komponent 11 taastati tasemel 8. Komponent K7K6 tasemel 8 tühistati.&#13;
+                [MR03749389] ADS teade: Objekt muudeti. Komponent 10 taastati tasemel 8. Komponent K7K7 tasemel 8 tühistati.&#13;
+                [ER03516072] ADS teade: Objekt muudeti. Komponent 7 taastati tasemel 8. Komponent K7K8 tasemel 8 tühistati.&#13;
+                [ER03516073] ADS teade: Objekt muudeti. Komponent 8 taastati tasemel 8. Komponent K7K9 tasemel 8 tühistati.&#13;
+                [ER03516075] ADS teade: Objekt muudeti. Komponent 3 taastati tasemel 8. Komponent K7KA tasemel 8 tühistati.&#13;
+                [ER03516076] ADS teade: Objekt muudeti. Komponent 4 taastati tasemel 8. Komponent K7KB tasemel 8 tühistati.&#13;
+                [ER03516078] ADS teade: Objekt muudeti. Komponent 9 taastati tasemel 8. Komponent K7KC tasemel 8 tühistati.&#13;
+                [ER03516081] ADS teade: Objekt muudeti. Komponent 1 taastati tasemel 8. Komponent K7KD tasemel 8 tühistati.</teade>
+            <tulem>1</tulem>
+        </tns:ADSmenadresitResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

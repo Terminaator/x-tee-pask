@@ -1,0 +1,1 @@
+java -jar C:/git/xtee-stub/target/xtee-stub-1.0.0-SNAPSHOT.jar

@@ -1,0 +1,33 @@
+wget -qO- --post-data='<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+>
+    <soapenv:Header>
+        <xrd:userId soapenv:mustUnderstand="0" xmlns:xrd="http://x-road.eu/xsd/xroad.xsd">EE11111111111</xrd:userId>
+        <xrd:id soapenv:mustUnderstand="0" xmlns:xrd="http://x-road.eu/xsd/xroad.xsd">ehr36c4a93ad7c44d01bad836a6438709f4</xrd:id>
+        <xrd:protocolVersion soapenv:mustUnderstand="0" xmlns:xrd="http://x-road.eu/xsd/xroad.xsd">4.0</xrd:protocolVersion>
+        <xrd:client id:objectType="SUBSYSTEM" soapenv:mustUnderstand="0" xmlns:xrd="http://x-road.eu/xsd/xroad.xsd"
+                    xmlns:id="http://x-road.eu/xsd/identifiers">
+            <id:xRoadInstance>ee-test</id:xRoadInstance>
+            <id:memberClass>GOV</id:memberClass>
+            <id:memberCode>70003158</id:memberCode>
+            <id:subsystemCode>ehr</id:subsystemCode>
+        </xrd:client>
+        <xrd:service id:objectType="SERVICE" soapenv:mustUnderstand="0" xmlns:xrd="http://x-road.eu/xsd/xroad.xsd"
+                     xmlns:id="http://x-road.eu/xsd/identifiers">
+            <id:xRoadInstance>ee-test</id:xRoadInstance>
+            <id:memberClass>GOV</id:memberClass>
+            <id:memberCode>70003098</id:memberCode>
+            <id:subsystemCode>ads</id:subsystemCode>
+            <id:serviceCode>ADSobjmuudatused</id:serviceCode>
+            <id:serviceVersion>v4</id:serviceVersion>
+        </xrd:service>
+    </soapenv:Header>
+    <soapenv:Body>
+        <ADSobjmuudatused xmlns="http://www.maaamet.ee">
+            <logId xmlns="">10092994</logId>
+            <maxarv xmlns="">20</maxarv>
+            <andmevektor xmlns="">111</andmevektor>
+            <aadressKomp xmlns="">true</aadressKomp>
+        </ADSobjmuudatused>
+    </soapenv:Body>
+</soapenv:Envelope>' --header="ConTent-Type: text/xml"    http://10.56.104.42:4080/dumonitor-filter/xroad

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1
+<origTunnus>120726226</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">11065244</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37703304922</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehrd3b5120a64c240608cbf94afc314bb2e</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse> 
+<keha xmlns:ns12="http://www.maaamet.ee/">
+    <ns12:ADSmenadresitResult>
+        <ns12:menadresitTulem>
+            <ns12:tulem>0</ns12:tulem>
+            <ns12:teade>ADS teade: leidub menetluse jõustamist takistavaid probleeme</ns12:teade>
+            <ns12:objektid>
+                <ns12:menobjekt>
+                    <ns12:objektiLiik>ME</ns12:objektiLiik>
+                    <ns12:adobId>0</ns12:adobId>
+                    <ns12:adsOid>ME03417032</ns12:adsOid>
+                    <ns12:origTunnus>120726226</ns12:origTunnus>
+                    <ns12:oiguslikAlus>Ehitusloa taotlus nr. 1611271/20156</ns12:oiguslikAlus>
+                    <ns12:aluseKuupaev>2016-10-07T00:00:00+03:00</ns12:aluseKuupaev>
+                    <ns12:olek>K</ns12:olek>
+                    <ns12:korrus>0</ns12:korrus>
+                    <ns12:ruumiKuju>
+                        <gml:Polygon srsName="EPSG:3301" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:maa="http://www.maaamet.ee/" xmlns:gml="http://www.opengis.net/gml" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                            <gml:outerBoundaryIs>
+                                <gml:LinearRing>
+                                    <gml:coordinates>701305.9,6393959.49 701269.06,6393944.69 701274.28,6393931.69 701277.24,6393932.88 701285.94,6393911.23 701319.82,6393924.84 701305.9,6393959.49</gml:coordinates>
+                                </gml:LinearRing>
+                            </gml:outerBoundaryIs>
+                        </gml:Polygon>
+                    </ns12:ruumiKuju>
+                    <ns12:kujuMoodustusviis>M</ns12:kujuMoodustusviis>
+                    <ns12:aadress>Võru maakond, Misso vald, Lütä küla, Luhamaa tollipunkt</ns12:aadress>
+                    <ns12:lahiAadress>Luhamaa tollipunkt</ns12:lahiAadress>
+                    <ns12:aadressid>
+                        <ns12:aadress>
+                            <ns12:taisAadress>Võru maakond, Misso vald, Lütä küla, Luhamaa tollipunkt</ns12:taisAadress>
+                            <ns12:lahiAadress>Luhamaa tollipunkt</ns12:lahiAadress>
+                            <ns12:adsTase1>
+                                <ns12:kood>86</ns12:kood>
+                                <ns12:nimetus>Võru maakond</ns12:nimetus>
+                                <ns12:nimetus_liigiga>Võru maakond</ns12:nimetus_liigiga>
+                            </ns12:adsTase1>
+                            <ns12:adsTase2>
+                                <ns12:kood>468</ns12:kood>
+                                <ns12:nimetus>Misso vald</ns12:nimetus>
+                                <ns12:nimetus_liigiga>Misso vald</ns12:nimetus_liigiga>
+                            </ns12:adsTase2>
+                            <ns12:adsTase3>
+                                <ns12:kood>4540</ns12:kood>
+                                <ns12:nimetus>Lütä küla</ns12:nimetus>
+                                <ns12:nimetus_liigiga>Lütä küla</ns12:nimetus_liigiga>
+                            </ns12:adsTase3>
+                            <ns12:adsTase4/>
+                            <ns12:adsTase5/>
+                            <ns12:adsTase6>
+                                <ns12:kood>0S2I</ns12:kood>
+                                <ns12:nimetus>Luhamaa tollipunkt</ns12:nimetus>
+                                <ns12:nimetus_liigiga>Luhamaa tollipunkt</ns12:nimetus_liigiga>
+                            </ns12:adsTase6>
+                            <ns12:adsTase7/>
+                            <ns12:adsTase8/>
+                            <ns12:punktX>6393934.77</ns12:punktX>
+                            <ns12:punktY>701294.44</ns12:punktY>
+                        </ns12:aadress>
+                    </ns12:aadressid>
+                    <ns12:menProbleemid>
+                        <ns12:menProbleem>
+                            <ns12:aadress>Võru maakond, Misso vald, Lütä küla, Luhamaa tollipunkt</ns12:aadress>
+                            <ns12:veaKood>155</ns12:veaKood>
+                            <ns12:veaTekst>Objekti aadress sisaldab 6. taseme komponenti, vajab ADS haldaja kontrolli</ns12:veaTekst>
+                        </ns12:menProbleem>
+                    </ns12:menProbleemid>
+                </ns12:menobjekt>
+            </ns12:objektid>
+        </ns12:menadresitTulem>
+    </ns12:ADSmenadresitResult>
+</keha>
+</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

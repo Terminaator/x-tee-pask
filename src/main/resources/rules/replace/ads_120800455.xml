@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ads.ADSmenadresit.v1
+<origTunnus>120800455</origTunnus> -->
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:ns2="http://producers.ads.xtee.riik.ee/producer/ads"
+	xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	SOAP-ENC:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Header>
+		<ns4:asutus xsi:type="xsd:string">11065244</ns4:asutus>
+		<ns4:andmekogu xsi:type="xsd:string">ads</ns4:andmekogu>
+		<ns4:isikukood xsi:type="xsd:string">EE37703304922</ns4:isikukood>
+		<ns4:id xsi:type="xsd:string">ehrd3b5120a64c240608cbf94afc314bb2e</ns4:id>
+		<ns4:nimi xsi:type="xsd:string">ads.ADSmenadresit.v1</ns4:nimi>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<ns2:ADSmenadresitResponse>
+	<paring xmlns:ns2="http://www.maaamet.ee/">
+    <menAdrParam>
+        <esitajaKood>75001052</esitajaKood>
+        <menetlejaNimi>MILLI LAAS (1009068)</menetlejaNimi>
+        <menetluseLiik>1</menetluseLiik>
+        <ainultKontroll>false</ainultKontroll>
+        <objektid>
+            <menobjekt>
+                <objektiLiik>ME</objektiLiik>
+                <origTunnus>120800455</origTunnus>
+                <oiguslikAlus>Ehitusloa taotlus nr. 1611271/19448</oiguslikAlus>
+                <aluseKuupaev>2016-10-20</aluseKuupaev>
+                <olek>K</olek>
+                <ruumiKuju>
+                    <Polygon srsName="SDO:" xmlns:gml="http://www.opengis.net/gml">
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates cs="," decimal="." ts=" ">536415.11,6471341.98 536417.65,6471334.65 536424.27,6471336.94 536421.73,6471344.26 536415.11,6471341.98 </coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </ruumiKuju>
+                <kujuMoodustusviis>D</kujuMoodustusviis>
+                <aadressid>
+                    <aadress>
+                        <adsTase1>
+                            <kood>67</kood>
+                            <nimetus>Pärnu maakond</nimetus>
+                        </adsTase1>
+                        <adsTase2>
+                            <kood>568</kood>
+                            <nimetus>Paikuse vald</nimetus>
+                        </adsTase2>
+                        <adsTase3>
+                            <nimetus>Paikuse alev</nimetus>
+                        </adsTase3>
+                        <adsTase4/>
+                        <adsTase5>
+                            <nimetus>Kurvitsa tn</nimetus>
+                        </adsTase5>
+                        <adsTase6/>
+                        <adsTase7>
+                            <nimetus>25</nimetus>
+                        </adsTase7>
+                        <adsTase8/>
+                        <punktX>6471336.94</punktX>
+                        <punktY>536424.27</punktY>
+                    </aadress>
+                </aadressid>
+            </menobjekt>
+        </objektid>
+    </menAdrParam>	
+</paring>
+
+<keha xmlns:ns2="http://www.maaamet.ee/">
+    <ns2:ADSmenadresitResult>
+        <ns2:menadresitTulem>
+            <ns2:tulem>1</ns2:tulem>
+            <ns2:teade>[ME03562919] ADS teade: Objekti andmed ei muutunud
+</ns2:teade>
+            <ns2:menetlusNr>11044005</ns2:menetlusNr>
+            <ns2:joustatud>2016-11-10T10:11:15+02:00</ns2:joustatud>
+            <ns2:objektid>
+                <ns2:menobjekt>
+                    <ns2:objektiLiik>ME</ns2:objektiLiik>
+                    <ns2:adobId>7375680</ns2:adobId>
+                    <ns2:adsOid>ME03562919</ns2:adsOid>
+                    <ns2:origTunnus>120800455</ns2:origTunnus>
+                    <ns2:oiguslikAlus>Ehitusloa taotlus nr. 1611271/19448</ns2:oiguslikAlus>
+                    <ns2:aluseKuupaev>2016-10-20T00:00:00+03:00</ns2:aluseKuupaev>
+                    <ns2:olek>K</ns2:olek>
+                    <ns2:korrus>0</ns2:korrus>
+                    <ns2:ruumiKuju>
+                        <gml:Polygon srsName="EPSG:3301" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://www.maaamet.ee/" xmlns:ns4="http://x-tee.riik.ee/xsd/xtee.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:maa="http://www.maaamet.ee/" xmlns:gml="http://www.opengis.net/gml" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                            <gml:outerBoundaryIs>
+                                <gml:LinearRing>
+                                    <gml:coordinates>536415.11,6471341.98 536417.65,6471334.65 536424.27,6471336.94 536421.73,6471344.26 536415.11,6471341.98</gml:coordinates>
+                                </gml:LinearRing>
+                            </gml:outerBoundaryIs>
+                        </gml:Polygon>
+                    </ns2:ruumiKuju>
+                    <ns2:kujuMoodustusviis>D</ns2:kujuMoodustusviis>
+                    <ns2:aadress>Pärnu maakond, Paikuse vald, Paikuse alev, Kurvitsa tn 25</ns2:aadress>
+                    <ns2:lahiAadress>Kurvitsa tn 25</ns2:lahiAadress>
+                    <ns2:aadressid>
+                        <ns2:aadress>
+                            <ns2:adrId>1714008</ns2:adrId>
+                            <ns2:koodAadress>67568586400000OQ900008YHV00000000</ns2:koodAadress>
+                            <ns2:taisAadress>Pärnu maakond, Paikuse vald, Paikuse alev, Kurvitsa tn 25</ns2:taisAadress>
+                            <ns2:lahiAadress>Kurvitsa tn 25</ns2:lahiAadress>
+                            <ns2:adsTase1>
+                                <ns2:kood>67</ns2:kood>
+                                <ns2:nimetus>Pärnu maakond</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Pärnu maakond</ns2:nimetus_liigiga>
+                            </ns2:adsTase1>
+                            <ns2:adsTase2>
+                                <ns2:kood>568</ns2:kood>
+                                <ns2:nimetus>Paikuse vald</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Paikuse vald</ns2:nimetus_liigiga>
+                            </ns2:adsTase2>
+                            <ns2:adsTase3>
+                                <ns2:kood>5864</ns2:kood>
+                                <ns2:nimetus>Paikuse alev</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Paikuse alev</ns2:nimetus_liigiga>
+                            </ns2:adsTase3>
+                            <ns2:adsTase4/>
+                            <ns2:adsTase5>
+                                <ns2:kood>0OQ9</ns2:kood>
+                                <ns2:nimetus>Kurvitsa tn</ns2:nimetus>
+                                <ns2:nimetus_liigiga>Kurvitsa tänav</ns2:nimetus_liigiga>
+                            </ns2:adsTase5>
+                            <ns2:adsTase6/>
+                            <ns2:adsTase7>
+                                <ns2:kood>8YHV</ns2:kood>
+                                <ns2:nimetus>25</ns2:nimetus>
+                                <ns2:nimetus_liigiga>25</ns2:nimetus_liigiga>
+                            </ns2:adsTase7>
+                            <ns2:adsTase8/>
+                            <ns2:punktX>6471339.46</ns2:punktX>
+                            <ns2:punktY>536419.69</ns2:punktY>
+                        </ns2:aadress>
+                    </ns2:aadressid>
+                </ns2:menobjekt>
+            </ns2:objektid>
+        </ns2:menadresitTulem>
+    </ns2:ADSmenadresitResult>
+</keha>
+		</ns2:ADSmenadresitResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

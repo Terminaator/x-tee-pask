@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keha>
+    <menAdrParam>
+        <esitajaKood>75008255</esitajaKood>
+        <menetlejaNimi>TANEL EHRENP (18485057)</menetlejaNimi>
+        <menetluseLiik>1</menetluseLiik>
+        <ainultKontroll>false</ainultKontroll>
+        <objektid>
+            <menobjekt>
+                <objektiLiik>EE</objektiLiik>
+                <adsOid>EE00992756</adsOid>
+                <origTunnus>120281137</origTunnus>
+                <oiguslikAlus>Kasutusloa taotlus nr. 1611371/06616</oiguslikAlus>
+                <aluseKuupaev>2016-08-15</aluseKuupaev>
+                <olek>K</olek>
+                <ruumiKuju>
+                    <Polygon srsName="SDO:" xmlns:gml="http://www.opengis.net/gml">
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates cs="," decimal="." ts=" ">665031.28,6468062.63 665016.86,6468070.7 665011.93,6468061.88 665026.35,6468053.81 665031.28,6468062.63 </coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </ruumiKuju>
+                <kujuMoodustusviis>K</kujuMoodustusviis>
+                <aadressid>
+                    <aadress>
+                        <adsTase1>
+                            <kood>78</kood>
+                            <nimetus>Tartu maakond</nimetus>
+                        </adsTase1>
+                        <adsTase2>
+                            <kood>185</kood>
+                            <nimetus>Haaslava vald</nimetus>
+                        </adsTase2>
+                        <adsTase3>
+                            <nimetus>Haaslava küla</nimetus>
+                        </adsTase3>
+                        <adsTase4/>
+                        <adsTase5/>
+                        <adsTase6>
+                            <nimetus>Järvepõllu</nimetus>
+                        </adsTase6>
+                        <adsTase7/>
+                        <adsTase8/>
+                        <punktX>6468062.25</punktX>
+                        <punktY>665021.61</punktY>
+                    </aadress>
+                </aadressid>
+            </menobjekt>
+        </objektid>
+    </menAdrParam>
+</keha>
